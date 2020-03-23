@@ -6,7 +6,8 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="css/slick.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -120,13 +121,33 @@
                 <div>
                     <img src="img/slide_3.jpg" alt="slide">
                 </div>
-              </div>
+            </div>
+            <button type="button" class="prev"><img src="icons/left.png"></button>
+            <button type="button" class="next"><img src="icons/right.png"></button>
         </div>
     </section>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <section class="catalogue">
+        <div class="container">
+            <h2 class="title">Каталог пульсометров</h2>
+            <ul class="catalogue__tabs">
+                <li class="catalogue__tab"><div>Для фитнеса</div></li>
+                <li class="catalogue__tab"><div>для бега</div></li>
+                <li class="catalogue__tab"><div>для триатлона</div></li>
+            </ul>
+            <div class="catalogue__content">
+
+            </div>
+            <div class="catalogue__content">
+
+            </div>
+            <div class="catalogue__content">
+
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -4,20 +4,28 @@
         position: relative;
         width: 750px;
         margin: 0 auto;
+        }
     }
-    .slick-prev, .slick-next {
+    .prev, .next {
         border: none;
         background-color: #fff;
         position: absolute;
         top: 50%;
         left: -66px;
         transform: translateY(-50%);
-    }
         img {
             width: 30px;
             height: 50px;
         }
     }
-    .slick-next {
+    .next {
         right: -66px;
+        left: auto;
     }
+
+.tns-item {
+    img {
+        display: block;
+        margin: 0 auto;
+    }
+}
